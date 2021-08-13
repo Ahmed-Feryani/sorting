@@ -12,7 +12,7 @@ BEGIN
             arr[j+1] := arr[j]
             j := j-1
         END_WHILE
-        tab[j+1] := current
+        arr[j+1] := current
     END_FOR
     
 END
